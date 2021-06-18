@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>学习Phaser3</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+  <link rel="stylesheet" href="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css" />
+  <style>
+    .markdown-section iframe {
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: "Learn Phaser3",
+      nameLink: "/",
+      repo: "codetyphon/learn-phaser3",
+      loadSidebar: true,
+      loadNavbar: false,
+      mergeNavbar: true, //小屏设备下合并导航栏到侧边栏。
+      formatUpdated: "{MM}/{DD} {HH}:{mm}",
+      // routerMode: "history", // default: 'hash'
+      notFoundPage: true,
+      copyCode: {
+        buttonText: "Copy to clipboard",
+        errorText: "Error",
+        successText: "Copied",
+      },
+      loadFooter: true,
+      darkMode: {
+        dark: {
+          background: "",
+          toggleBtnBg: "",
+          textColor: "",
+        },
+        light: {
+          background: "",
+          toggleBtnBg: "",
+          textColor: "",
+        },
+      },
+    };
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="codecopy.js"></script>
+  <script src="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.min.js"></script>
+  <script src="docsifyPhaser.js"></script>
+</body>
+
+</html>

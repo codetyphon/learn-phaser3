@@ -1,0 +1,1 @@
+2021 自豪地采用 https://github.com/codetyphon/docsify-phaser 插件在docsify文档中渲染phaser游戏。
